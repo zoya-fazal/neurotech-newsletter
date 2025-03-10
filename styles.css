@@ -1,0 +1,77 @@
+/* Importing Inter font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-family: 'Inter', sans-serif; /* Applying Inter Font */
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+/* Blog Post Grid */
+.blog-posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 3rem auto;
+}
+
+.post {
+    background: white;
+    padding: 1.5rem;
+    margin: 1rem;
+    width: 100%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.post h2 {
+    margin: 0;
+}
+
+.post a {
+    text-decoration: none;
+    color: #0070f3;
+}
+
+.post p {
+    margin: 0.5rem 0;
+}
+
+.post span {
+    font-size: 0.9rem;
+    color: gray;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #222;
+    color: white;
+}
