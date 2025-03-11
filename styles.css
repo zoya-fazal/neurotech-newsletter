@@ -36,13 +36,15 @@ nav ul li a {
     font-weight: 900;
     color: white;
     padding: 0.5rem 1rem;
-    transition: color 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
+/* Hover effect for navigation */
 nav ul li a:hover {
     color: #0070f3;
+    text-decoration: underline;
+    transform: scale(1.1);
 }
-
 
 /* Header */
 header {
@@ -75,6 +77,7 @@ header p {
     margin: 3rem auto;
 }
 
+/* Post Container */
 .post {
     background: white;
     padding: 1.5rem;
@@ -82,8 +85,16 @@ header p {
     width: 100%;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+    transition: all 0.3s ease-in-out;
 }
 
+/* Hover effect for post squares */
+.post:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Post Title */
 .post h2 {
     margin: 0;
 }
@@ -91,8 +102,15 @@ header p {
 .post a {
     text-decoration: none;
     color: #0070f3;
+    transition: color 0.3s ease-in-out;
 }
 
+/* Hover effect for links inside posts */
+.post a:hover {
+    color: #0056b3;
+}
+
+/* Post Details */
 .post p {
     margin: 0.5rem 0;
 }
