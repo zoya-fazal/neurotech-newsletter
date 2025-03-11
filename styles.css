@@ -99,6 +99,40 @@ header p {
     opacity: 0.8;
 }
 
+/* Hero Section */
+.hero {
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    height: 90vh; /* Makes the hero section take 90% of the screen height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+}
+
+/* Ensuring readability of text */
+.hero-content {
+    max-width: 800px;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    border-radius: 10px;
+}
+
+/* Hero Section Heading */
+.hero-content h1 {
+    font-size: 3.5rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+}
+
+/* Hero Section Subtext */
+.hero-content p {
+    font-size: 1.5rem;
+    opacity: 0.8;
+}
+
 /* Blog Post Grid */
 .blog-posts {
     display: flex;
