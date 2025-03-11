@@ -1,13 +1,30 @@
 /* Importing Inter font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
 
+/* Color Variables */
+:root {
+    --primary: #2C3E50;
+    --secondary: #3498DB;
+    --accent: #9B59B6;
+    --light: #ECF0F1;
+    --dark: #2C3E50;
+    --text: #34495E;
+    --background: #F5F7FA;
+    --transition: all 0.3s ease;
+}
+
 /* General Styles */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding-top: 80px; /*Adjusted this based on nav bar height */
-    background-color: #f9f9f9;
-    color: #333;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+    color: var(--primary);
+    font-weight: 700;
 }
 
 /* Navigation Bar Styles */
@@ -77,6 +94,56 @@ nav ul li a:hover {
     transform: scale(1.1);
 }
 
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 15px 0;
+    transition: var(--transition);
+    z-index: 1000;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: var(--primary);
+    font-weight: 600;
+    position: relative;
+    padding: 5px 0;
+}
+
+.nav-links a:hover {
+    color: var(--accent);
+}
+
+/* CTA Button */
+.btn {
+    background-color: var(--secondary);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: var(--accent);
+}
+
 /* Header */
 header {
     background-color: #111;
@@ -101,14 +168,39 @@ header p {
 
 /* Hero Section */
 .hero {
-    background: url('images/hero-bg.jpg') no-repeat center center/cover;
-    height: 90vh; /* Makes the hero section take 90% of the screen height */
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
     color: white;
-    padding: 2rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-outline {
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+}
+
+.btn-outline:hover {
+    background: white;
+    color: var(--secondary);
 }
 
 /* Ensuring readability of text */
@@ -172,7 +264,6 @@ header p {
     width: 100%;
     height: 150px; /* Fixed height for uniformity */
     object-fit: cover; /* Ensures image fills space without distortion */
-    border-radius: 8px;
 }
 
 /* Post Title */
