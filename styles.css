@@ -24,8 +24,8 @@ body {
 
 h1, h2, h3, h4 {
     color: var(--primary);
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
 }
 
 /* Navigation Bar Styles */
@@ -107,8 +107,8 @@ nav ul li a:hover {
     z-index: 1000;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 
-    /* Apply Cormorant Garamond Font */
-    font-family: 'Cormorant Garamond', serif;
+    /* Apply Poppins Font */
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar .container {
@@ -128,7 +128,7 @@ nav ul li a:hover {
 }
 
 .nav-links a {
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.2rem; 
     color: #000;
     font-weight: 600;
@@ -172,7 +172,7 @@ header {
 header h1 {
     margin: 0;
     font-size: 3rem;
-    font-family: 'Cormorant Garamond', serif; /* Applying Cormorant Font */
+    font-family: 'Poppins', sans-serif; /* Applying Poppins Font */
     font-weight: 900;
     letter-spacing: -1px;
 }
@@ -236,14 +236,14 @@ header p {
 .hero-content {
     max-width: 1000px;
     padding: 1rem;
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    background: none;
     border-radius: 10px;
 }
 
 /* Hero Section Heading */
 .hero-content h1 {
     font-size: 6rem;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     color: white;
     text-transform: uppercase;
@@ -254,7 +254,7 @@ header p {
 /* Hero Section Subtext */
 .hero-content p {
     font-size: 1.2rem;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Poppins', sans-serif;
     opacity: 0.9;
 }
 
