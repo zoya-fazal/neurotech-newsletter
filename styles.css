@@ -113,14 +113,18 @@ nav ul li a:hover {
 
 .navbar .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .nav-links {
     display: flex;
     list-style: none;
     gap: 30px;
+    justify-content: center; /* centers links horizontally */
+    align-items: center; /* centers links vertically */
+    width: 100%;
 }
 
 .nav-links a {
@@ -198,7 +202,7 @@ header p {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    background: blanchedalmond;
     color: white;
 }
 
@@ -238,7 +242,7 @@ header p {
 
 /* Hero Section Heading */
 .hero-content h1 {
-    font-size: 4rem;
+    font-size: 6rem;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 500;
     color: white;
