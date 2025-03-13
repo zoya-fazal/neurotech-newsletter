@@ -24,7 +24,7 @@ body {
 
 h1, h2, h3, h4 {
     color: var(--primary);
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
 }
 
@@ -226,8 +226,8 @@ header p {
 /* Hero Section Heading */
 .hero-content h1 {
     font-size: 4rem;
-    font-family: 'Playfair Display', serif;
-    font-weight: 900;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
     color: white;
     text-transform: uppercase;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
@@ -237,7 +237,7 @@ header p {
 /* Hero Section Subtext */
 .hero-content p {
     font-size: 1.2rem;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Cormorant Garamond', serif;
     opacity: 0.9;
 }
 
