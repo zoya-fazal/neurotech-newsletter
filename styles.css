@@ -126,7 +126,7 @@ nav ul li a:hover {
 .nav-links a {
     font-family: 'Cormorant Garamond', serif;
     font-size: 1.5rem; 
-    color: var(--primary);
+    color: black;
     font-weight: 600;
     position: relative;
     padding: 5px 0;
@@ -230,7 +230,7 @@ header p {
 
 /* Ensuring readability of text */
 .hero-content {
-    max-width: 800px;
+    max-width: 1000px;
     padding: 1rem;
     background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
     border-radius: 10px;
