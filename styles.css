@@ -125,8 +125,8 @@ nav ul li a:hover {
 
 .nav-links a {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1.5rem; 
-    color: black;
+    font-size: 1.2rem; 
+    color: #000;
     font-weight: 600;
     position: relative;
     padding: 5px 0;
@@ -168,7 +168,7 @@ header {
 header h1 {
     margin: 0;
     font-size: 3rem;
-    font-family: 'Inter', sans-serif; /* Applying Inter Font */
+    font-family: 'Cormorant Garamond', serif; /* Applying Cormorant Font */
     font-weight: 900;
     letter-spacing: -1px;
 }
