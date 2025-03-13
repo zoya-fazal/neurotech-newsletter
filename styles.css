@@ -24,6 +24,7 @@ body {
 
 h1, h2, h3, h4 {
     color: var(--primary);
+    font-family: 'Playfair Display', serif;
     font-weight: 700;
 }
 
@@ -131,17 +132,21 @@ nav ul li a:hover {
 }
 
 /* CTA Button */
-.btn {
-    background-color: var(--secondary);
-    color: white;
-    padding: 10px 20px;
+.nav-links .btn {
+    font-size: 1.2rem;
+    padding: 12px 24px;
     border-radius: 30px;
-    text-transform: uppercase;
+    background: linear-gradient(45deg, #3498DB, #6c83ff);
+    color: white;
     font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    display: inline-block;
 }
 
-.btn:hover {
-    background-color: var(--accent);
+.nav-links .btn:hover {
+    background: linear-gradient(45deg, #6c83ff, #9B59B6);
+    transform: scale(1.1);
 }
 
 /* Header */
@@ -164,6 +169,13 @@ header p {
     margin: 0;
     font-size: 1.2rem;
     opacity: 0.8;
+}
+
+/* Logo Section */
+
+.logo-img {
+    height: 50px; /* Adjust size as needed */
+    width: auto;
 }
 
 /* Hero Section */
@@ -213,15 +225,19 @@ header p {
 
 /* Hero Section Heading */
 .hero-content h1 {
-    font-size: 3rem;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     margin-bottom: 0.5rem;
 }
 
 /* Hero Section Subtext */
 .hero-content p {
     font-size: 1.2rem;
+    font-family: 'Playfair Display', serif;
     opacity: 0.9;
 }
 
