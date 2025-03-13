@@ -106,6 +106,9 @@ nav ul li a:hover {
     transition: var(--transition);
     z-index: 1000;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+
+    /* Apply Cormorant Garamond Font */
+    font-family: 'Cormorant Garamond', serif;
 }
 
 .navbar .container {
@@ -121,14 +124,19 @@ nav ul li a:hover {
 }
 
 .nav-links a {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem; 
     color: var(--primary);
     font-weight: 600;
     position: relative;
     padding: 5px 0;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
 }
 
 .nav-links a:hover {
     color: var(--accent);
+    transform: scale(1.05);
 }
 
 /* CTA Button */
@@ -172,6 +180,11 @@ header p {
 }
 
 /* Logo Section */
+
+.logo {
+    margin-left: 20px; /*Moving the logo a bit to the right */
+
+}
 
 .logo-img {
     height: 50px; /* Adjust size as needed */
