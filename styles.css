@@ -254,7 +254,7 @@ header p {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     margin-bottom: 0.2rem;
     text-align: left;
-    line-height: 0.9;
+    line-height: 1.2;
     margin-left: 0%;
 }
 
@@ -267,13 +267,34 @@ header p {
     max-width: 800px;
 }
 
+/* latest post button */
+.latest-post {
+    display: inline-block;
+    background: #0073e6; /* Match your theme */
+    color: white;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.latest-post:hover {
+    background: #0056b3;
+    transform: scale(1.1);
+}
+
+
 /* Blog Post Grid */
 .blog-posts {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    max-width: 800px;
-    margin: 3rem auto;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 2rem;
+    gap: 20px;
 }
 
 /* Post Grid Layout */
@@ -282,21 +303,25 @@ header p {
     flex-wrap: wrap;
     gap: 20px;
     padding: 2rem;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 100%;
 }
 
 /* Individual Post Styling Here */
 .post {
     flex: 1;
-    min-width: 250px;
-    max-width: calc(33.33% - 20px);
+    min-width: 300px;
+    max-width: 300px;
+    height: 300px;
     background: white;
     padding: 1rem;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 0px;
     text-align: center;
     transition: all 0.3s ease-in-out;
-    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
 }
 
 /* Hover effect for post squares */
@@ -310,6 +335,7 @@ header p {
     width: 100%;
     height: 150px; /* Fixed height for uniformity */
     object-fit: cover; /* Ensures image fills space without distortion */
+    border-radius: 0px;
 }
 
 /* Post Title */
