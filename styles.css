@@ -315,8 +315,8 @@ header p {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start; /* Ensures content starts from the top */
-    width: 300px; /* Keep square shape */
-    height: 300px; /* Keep square shape */
+    width: 400px; /* Keep square shape */
+    height: 400px; /* Keep square shape */
     background: white;
     padding: 1rem;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -337,7 +337,7 @@ header p {
     height: auto; /* Maintain aspect ratio */
     max-height: 120px; /* Prevent it from being too tall */
     object-fit: cover; /* Ensures it fills the space properly */
-    border-radius: 50%; /* Makes it circular */
+    border-radius: 0; /* Makes it circular */
     margin-bottom: 10px; /* Space between image and text */
 }
 
