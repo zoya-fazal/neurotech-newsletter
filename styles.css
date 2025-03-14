@@ -200,7 +200,7 @@ header p {
     height: 80vh; /*to adjust the height of the hero background */
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
     background: #000;
     color: white;
@@ -252,8 +252,9 @@ header p {
     color: white;
     text-transform: uppercase;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.2rem;
     text-align: left;
+    line-height: 0.9;
     margin-left: 0%;
 }
 
@@ -277,26 +278,25 @@ header p {
 
 /* Post Grid Layout */
 .post-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     padding: 2rem;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 /* Individual Post Styling Here */
 .post {
+    flex: 1;
+    min-width: 250px;
+    max-width: calc(33.33% - 20px);
     background: white;
     padding: 1rem;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    border-radius: 0px;
     text-align: center;
     transition: all 0.3s ease-in-out;
-    width: 250px; /*square shape */
     height: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 /* Hover effect for post squares */
