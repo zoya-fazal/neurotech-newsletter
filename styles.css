@@ -314,7 +314,7 @@ header p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; /* Ensures content starts from the top */
+    justify-content: space-between; /* Ensures content starts from the top */
     width: 400px; /* Keep square shape */
     height: 400px; /* Keep square shape */
     background: white;
@@ -335,10 +335,10 @@ header p {
 .post img {
     width: 80%; /* Make sure it’s not too big */
     height: auto; /* Maintain aspect ratio */
-    max-height: 120px; /* Prevent it from being too tall */
+    max-height: 100px; /* Prevent it from being too tall */
     object-fit: cover; /* Ensures it fills the space properly */
-    border-radius: 0; /* Makes it circular */
-    margin-bottom: 10px; /* Space between image and text */
+    border-radius: 0; /*  */
+    margin-bottom: 5px; /* Space between image and text */
 }
 
 /* Post Title */
@@ -348,6 +348,7 @@ header p {
     color: #000;
     margin-top: 5px 0;
     text-transform: uppercase;
+    line-height: 1.2;
 }
 
 .post a {
