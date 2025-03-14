@@ -5,10 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Neurotech Newsletter - Posts</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link your CSS file -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header>
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/BRAIN Center Logo.png" alt="Neurotech Newsletter Logo" class="logo-img">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="posts.html">Posts</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="btn">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>    
+
+    <!-- <header>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -16,34 +36,31 @@
                 <li><a href="about.html">About</a></li>
             </ul>
         </nav>
-    </header>
+    </header> -->
 
     <main>
         <h1>Recent Newsletters</h1>
         
         <!-- New Grid Layout for Posts -->
-        <section class="post-grid">
-            <div class="post">
-                <a href="newsletters/march2025.pdf" target="_blank">
-                    <img src="images/march2025.jpg" alt="March 2025 Newsletter">
-                    <h2>Neuroscience Breakthroughs - March 2025</h2>
-                    <p>Exploring the latest advancements in neuroscience and AI.</p>
-                </a>
-            </div>
-            <div class="post">
-                <a href="newsletters/february2025.pdf" target="_blank">
-                    <img src="images/february2025.jpg" alt="February 2025 Newsletter">
-                    <h2>The Brain & AI - February 2025</h2>
-                    <p>How AI is shaping the future of brain research.</p>
-                </a>
-            </div>
-            <div class="post">
-                <a href="newsletters/january2025.pdf" target="_blank">
-                    <img src="images/january2025.jpg" alt="January 2025 Newsletter">
-                    <h2>The Future of Neurotechnology</h2>
-                    <p>Will brain-computer interfaces change the way we interact with technology?</p>
-                </a>
-            </div>
+        <section class="blog-posts">
+            <article class="post">
+                <img src="images/BrainWave Post Image.png" alt="Blog Post Image">
+                <h2><a href="#">Imagine a World Where No One Can Lie to You Anymore</a></h2>
+                <p>Learn about the future of lie detection with Mr. Krishna Ika, founder of BCI company BrainWave Science.</p>
+                <span>March 2025 | Spring Issue</span>
+            </article>
+
+            <article class="post">
+                <h2><a href="#">Coming Soon: Interview with Precision Neuroscience</a></h2>
+                <p>Explore the future of BCIs with Craig Mermel, President of Precision Neuroscience</p>
+                <span>Coming Soon | Summer Issue</span>
+            </article>
+
+            <article class="post">
+                <h2><a href="#"></a></h2>
+                <p>Will brain-computer interfaces change the way we interact with technology?</p>
+                <span>Published: March 2025</span>
+            </article>
         </section>
     </main>
 
