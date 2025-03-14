@@ -148,7 +148,7 @@ nav ul li a:hover {
     font-size: 1.2rem;
     padding: 12px 24px;
     border-radius: 30px;
-    background: linear-gradient(45deg, #3498DB, #6c83ff);
+    background: linear-gradient(45deg, #1e1e1e, #444);
     color: white;
     font-weight: bold;
     transition: all 0.3s ease-in-out;
@@ -157,7 +157,7 @@ nav ul li a:hover {
 }
 
 .nav-links .btn:hover {
-    background: linear-gradient(45deg, #6c83ff, #9B59B6);
+    background: linear-gradient(45deg, #444, #777);
     transform: scale(1.1);
 }
 
@@ -197,13 +197,14 @@ header p {
 
 /* Hero Section */
 .hero {
-    height: 60vh; /*to adjust the height of the hero background */
+    height: 80vh; /*to adjust the height of the hero background */
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     background: #000;
     color: white;
+    padding-left: 5%;
 }
 
 .hero h1 {
@@ -239,7 +240,7 @@ header p {
     background: none;
     border-radius: 10px;
     text-align: left;
-    margin-left: 5%;
+    margin-left: 0;
     max-width: 800px;
 }
 
@@ -253,7 +254,7 @@ header p {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     margin-bottom: 0.5rem;
     text-align: left;
-    margin-left: 5%;
+    margin-left: 0%;
 }
 
 /* Hero Section Subtext */
@@ -261,7 +262,7 @@ header p {
     font-size: 1.2rem;
     font-family: 'Poppins', sans-serif;
     opacity: 0.9;
-    margin-left: 5%;
+    margin-left: 0%;
     max-width: 800px;
 }
 
@@ -291,6 +292,11 @@ header p {
     border-radius: 10px;
     text-align: center;
     transition: all 0.3s ease-in-out;
+    width: 250px; /*square shape */
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* Hover effect for post squares */
