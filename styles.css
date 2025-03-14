@@ -347,11 +347,12 @@ header p {
     font-weight: 700;
     color: #000;
     margin-top: 10px;
+    text-transform: uppercase;
 }
 
 .post a {
     text-decoration: none;
-    color: #0070f3;
+    color: #000;
     transition: color 0.3s ease-in-out;
 }
 
