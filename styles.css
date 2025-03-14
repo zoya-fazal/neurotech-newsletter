@@ -101,7 +101,7 @@ nav ul li a:hover {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #000;
+    background-color: white;
     padding: 15px 0;
     transition: var(--transition);
     z-index: 1000;
@@ -130,7 +130,7 @@ nav ul li a:hover {
 .nav-links a {
     font-family: 'Poppins', sans-serif;
     font-size: 1.2rem; 
-    color: white;
+    color: #000;
     font-weight: 600;
     position: relative;
     padding: 5px 0;
@@ -202,7 +202,7 @@ header p {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: url("images/BCi\ stock\ image\ 2.jpg") no-repeat center center/cover;
+    background: #000;
     color: white;
 }
 
@@ -238,17 +238,22 @@ header p {
     padding: 1rem;
     background: none;
     border-radius: 10px;
+    text-align: left;
+    margin-left: 5%;
+    max-width: 800px;
 }
 
 /* Hero Section Heading */
 .hero-content h1 {
-    font-size: 7rem;
-    font-family: 'Cormorant Garamond', serif;
+    font-size: 9rem;
+    font-family: 'Poppins', sans-serif;
     font-weight: 500;
     color: white;
     text-transform: uppercase;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     margin-bottom: 0.5rem;
+    text-align: left;
+    margin-left: 20px;
 }
 
 /* Hero Section Subtext */
