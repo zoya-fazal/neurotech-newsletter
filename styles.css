@@ -270,13 +270,14 @@ header p {
 /* latest post button */
 .latest-post {
     display: inline-block;
-    background: #0073e6; /* Match your theme */
-    color: white;
+    background: white; /* Match your theme */
+    color: #000;
     padding: 12px 24px;
     font-size: 1.2rem;
     border-radius: 30px;
     font-weight: bold;
     text-decoration: none;
+    text-transform: uppercase;
     transition: all 0.3s ease-in-out;
 }
 
@@ -312,6 +313,7 @@ header p {
     flex: 1;
     min-width: 300px;
     max-width: 300px;
+    align-items: center;
     height: 300px;
     background: white;
     padding: 1rem;
@@ -336,12 +338,14 @@ header p {
     height: 150px; /* Fixed height for uniformity */
     object-fit: cover; /* Ensures image fills space without distortion */
     border-radius: 0px;
+    margin-bottom: 10px;
 }
 
 /* Post Title */
 .post h2 {
-    font-size: 1.2rem;
-    color: #0073e6;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #000;
     margin-top: 10px;
 }
 
@@ -359,6 +363,7 @@ header p {
 /* Post Description */
 .post p {
     font-size: 1rem;
+    font-weight: 400;
     color: #555;
     margin: 0.5rem 0;
 }
