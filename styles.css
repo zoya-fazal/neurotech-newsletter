@@ -141,6 +141,7 @@ nav ul li a:hover {
 .nav-links a:hover {
     color: #ccc;
     transform: scale(1.05);
+    text-decoration: none;
 }
 
 /* CTA Button */
@@ -154,6 +155,7 @@ nav ul li a:hover {
     transition: all 0.3s ease-in-out;
     border: none;
     display: inline-block;
+    text-decoration: none;
 }
 
 .nav-links .btn:hover {
