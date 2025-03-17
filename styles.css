@@ -244,6 +244,29 @@ header p {
     max-width: 800px;
 }
 
+/* Second Subtitle - above header (Regular Style) */
+.hero-subtitle {
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0.2rem;
+    text-align: left;
+    line-height: 1.2;
+    margin-left: 0%;
+}
+
+/* Highlighted Word (Different Font) */
+.hero-subtitle .highlight-word {
+    font-family: 'Pinyon Script', cursive; /* Pinyon Script font */
+    font-size: 1.8rem; /* Adjust size for better emphasis */
+    color: #ffffff; /* Optional: Make it stand out */
+    font-weight: 400; /* Keep natural look */
+    letter-spacing: 1px; /* Adds elegance */
+}
+
 /* Hero Section Heading */
 .hero-content h1 {
     font-size: 9rem;
