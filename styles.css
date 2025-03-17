@@ -260,11 +260,12 @@ header p {
 
 /* Highlighted Word (Different Font) */
 .hero-subtitle .highlight-word {
-    font-family: 'Pinyon Script', cursive; /* Pinyon Script font */
-    font-size: 1.8rem; /* Adjust size for better emphasis */
-    color: #ffffff; /* Optional: Make it stand out */
-    font-weight: 400; /* Keep natural look */
+    font-family: 'Poppins', italic; /* Pinyon Script font */
+    font-size: 3rem; /* Adjust size for better emphasis */
+    color: white; /* Optional: Make it stand out */
+    font-weight: 600; /* Keep natural look */
     letter-spacing: 1px; /* Adds elegance */
+    text-transform: lowercase;
 }
 
 /* Hero Section Heading */
