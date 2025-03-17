@@ -334,13 +334,14 @@ header p {
 
 /* Post Images */
 .post img {
-    width: 100%; /* Make sure it’s not too big */
-    height: 50%; /* Maintain aspect ratio */
-    max-height: 100px; /* Prevent it from being too tall */
-    object-fit: cover; /* Ensures it fills the space properly */
-    border-radius: 0; /*  */
-    margin-bottom: 10px; /* Space between image and text */
+    width: 80%; /* Adjust width */
+    max-height: 250px; /* Ensures it isn’t too small */
+    object-fit: cover; /* Keeps aspect ratio */
+    display: block; /* Prevents inline spacing issues */
+    margin: 0 auto 15px auto; /* Centers the image and adds bottom spacing */
+    border-radius: 10px; /* Optional: Smooth edges */
 }
+
 
 /* Post Title */
 .post h2 {
