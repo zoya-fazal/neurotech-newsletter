@@ -262,6 +262,7 @@ header p {
 .hero-subtitle .highlight-word {
     font-family: 'Poppins', sans-serif; /* Match the rest of the text */
     font-style: italic;
+    text-transform: lowercase;
     font-size: 3rem; /* Adjust size as needed */
     font-weight: 500; /* Keep it the same as the surrounding text */
     color: white; /* Match color */
