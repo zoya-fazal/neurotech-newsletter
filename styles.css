@@ -314,16 +314,17 @@ header p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between; /* Ensures content starts from the top */
-    width: 400px; /* Keep square shape */
-    height: 400px; /* Keep square shape */
+    justify-content: flex-start; /* Keep elements aligned properly */
+    width: 400px;
+    height: 450px; /* Increase height slightly */
     background: white;
     padding: 1rem;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 0; 
+    border-radius: 0;
     text-align: center;
-    overflow: hidden; /* Prevents overflow */
+    overflow: hidden;
 }
+
 
 /* Hover effect for post squares */
 .post:hover {
@@ -333,22 +334,22 @@ header p {
 
 /* Post Images */
 .post img {
-    width: 80%; /* Make sure it’s not too big */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; /* Make sure it’s not too big */
+    height: 50%; /* Maintain aspect ratio */
     max-height: 100px; /* Prevent it from being too tall */
     object-fit: cover; /* Ensures it fills the space properly */
     border-radius: 0; /*  */
-    margin-bottom: 5px; /* Space between image and text */
+    margin-bottom: 10px; /* Space between image and text */
 }
 
 /* Post Title */
 .post h2 {
-    font-size: 1rem;
+    font-size: 1.2rem; /* Increase font size for better readability */
     font-weight: 700;
     color: #000;
-    margin-top: 5px 0;
+    margin: 10px 0; /* Add space */
     text-transform: uppercase;
-    line-height: 1.2;
+    line-height: 1.3;
 }
 
 .post a {
