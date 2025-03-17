@@ -260,12 +260,11 @@ header p {
 
 /* Highlighted Word (Different Font) */
 .hero-subtitle .highlight-word {
-    font-family: 'Poppins', italic; /* Pinyon Script font */
-    font-size: 3rem; /* Adjust size for better emphasis */
-    color: white; /* Optional: Make it stand out */
-    font-weight: 600; /* Keep natural look */
-    letter-spacing: 1px; /* Adds elegance */
-    text-transform: lowercase;
+    font-family: 'Poppins', sans-serif; /* Match the rest of the text */
+    font-style: italic;
+    font-size: 3rem; /* Adjust size as needed */
+    font-weight: 500; /* Keep it the same as the surrounding text */
+    color: white; /* Match color */
 }
 
 /* Hero Section Heading */
