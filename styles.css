@@ -294,34 +294,6 @@ header p {
 }
 
 
-
-/* Hero for Posts page */
-
-/* This will only affect the posts page */
-.hero-posts {
-    height: 60vh; /* smaller hero height */
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    text-align: left;
-    background: #000;
-    font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: white;
-    padding-left: 5%;
-}
-
-/* Smaller hero title */
-.hero-posts .hero-content h1 {
-    font-size: 4rem; /* smaller than the 9rem in homepage */
-}
-
-/* Optional: smaller paragraph */
-.hero-posts .hero-content p {
-    font-size: 1rem;
-}
-
 /* latest post button */
 .latest-post {
     display: inline-block;
@@ -433,6 +405,94 @@ header p {
     font-size: 0.9rem;
     color: gray;
 }
+
+
+
+
+/* POSTS.HTML STYLING */
+
+/* Hero content for posts.html */
+.hero-posts {
+    height: 60vh; /* smaller hero height */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    background: #000;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    padding-left: 5%;
+}
+
+.hero-posts .hero-content h1 {
+    font-size: 4rem; /* smaller than the 9rem in homepage */
+}
+
+.hero-posts .hero-content p {
+    font-size: 1rem;
+}
+
+
+
+
+/* CONTACTS.HTML STYLING */
+
+.contact-section {
+    background-color: #000;
+    color: white;
+    padding: 4rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+  }
+  
+  .contact-container {
+    max-width: 700px;
+    width: 100%;
+  }
+  
+  .contact-container h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    background: #111;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .contact-form button {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #ccc;
+  }
+  
 
 /* Footer */
 footer {
