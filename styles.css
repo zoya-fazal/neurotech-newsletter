@@ -299,24 +299,29 @@ header p {
 
 /* This will only affect the posts page */
 .hero-posts {
-    height: 80vh; /*to adjust the height of the hero background */
+    height: 60vh; /* smaller hero height */
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    text-align: center;
+    text-align: left;
     background: #000;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     font-weight: 600;
     color: white;
     padding-left: 5%;
-  }
-  
-  /* Optional: tweak font size if needed */
-  .hero-posts h1 {
-    font-size: 2.5rem;
-  }
-  
+}
+
+/* Smaller hero title */
+.hero-posts .hero-content h1 {
+    font-size: 4rem; /* smaller than the 9rem in homepage */
+}
+
+/* Optional: smaller paragraph */
+.hero-posts .hero-content p {
+    font-size: 1rem;
+}
+
 /* latest post button */
 .latest-post {
     display: inline-block;
