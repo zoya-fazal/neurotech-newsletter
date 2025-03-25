@@ -415,7 +415,7 @@ header p {
 
 /* Hero content for posts.html */
 .hero-posts {
-    height: 40vh; /* smaller hero height */
+    height: 20vh; /* smaller hero height */
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -436,6 +436,31 @@ header p {
     font-size: 1rem;
 }
 
+
+
+/* ABOUT.HTML STYLING */
+
+.hero-about {
+    height: 20vh; /* smaller hero height */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    background: #000;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    padding-left: 5%;
+}
+
+.hero-about .hero-content h1 {
+    font-size: 4rem; /* smaller than the 9rem in homepage */
+}
+
+.hero-about .hero-content p {
+    font-size: 1rem;
+}
 
 
 
