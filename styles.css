@@ -442,6 +442,7 @@ header p {
 /* CONTACTS.HTML STYLING */
 
 .contact-section {
+    padding-top: 120px; /* Adjust based on navbar height */
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -452,6 +453,7 @@ header p {
     font-weight: 600;
     color: white;
     padding-left: 5%;
+    padding-bottom: 120px;
   }
 
   .contact-header {
@@ -468,9 +470,11 @@ header p {
   .contact-subtext {
     font-size: 1.2rem;
     font-family: 'Poppins', sans-serif;
+    font-weight: 300; /* lighter weight */
     color: white;
     margin-bottom: 2rem;
     opacity: 0.9;
+    text-transform: none; /* removes uppercase */      
   }
   
   
