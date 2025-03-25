@@ -442,18 +442,16 @@ header p {
 /* CONTACTS.HTML STYLING */
 
 .contact-section {
-    padding-top: 120px; /* Adjust based on navbar height */
+    padding-top: 140px; /* adjust based on navbar height */
+    padding-bottom: 120px;
     display: flex;
-    align-items: center;
+    flex-direction: column; /* this is key! */
+    align-items: flex-start;
     justify-content: flex-start;
-    text-align: left;
     background: #000;
     font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
     color: white;
     padding-left: 5%;
-    padding-bottom: 120px;
   }
 
   .contact-header {
@@ -474,20 +472,16 @@ header p {
     color: white;
     margin-bottom: 2rem;
     opacity: 0.9;
-    text-transform: none; /* removes uppercase */      
+    text-transform: none !important; /* removes uppercase */      
   }
   
   
   .contact-container {
-    max-width: 700px;
-    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
   }
   
-  .contact-container h2 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-  }
   
   .contact-form input,
   .contact-form textarea {
