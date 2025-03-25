@@ -525,6 +525,7 @@ header p {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: block;
     border-radius: 12px;
   }
   
@@ -573,12 +574,31 @@ header p {
     font-weight: 600;
     margin-top: 1rem;
     text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    color: white;
   }
   
   .member-role {
     font-size: 1rem;
     font-weight: 300;
     opacity: 0.8;
+    margin-bottom: 0.5rem;
+  }
+
+  .linkedin-button {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #0077b5;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .linkedin-button:hover {
+    background-color: #005f8d;
   }
   
   
