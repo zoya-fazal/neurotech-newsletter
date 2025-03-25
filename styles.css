@@ -390,7 +390,7 @@ header p {
 
 /* Hover effect for links inside posts */
 .post a:hover {
-    color: white;
+    color: gray;
 }
 
 /* Post Description */
