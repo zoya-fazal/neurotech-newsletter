@@ -441,28 +441,34 @@ header p {
 /* ABOUT.HTML STYLING */
 
 .hero-about {
-    height: 20vh; /* smaller hero height */
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    text-align: left;
-    background: #000;
-    font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: white;
-    padding-left: 5%;
+  padding-top: 140px; /* makes space for fixed navbar */
+  padding-left: 5%;
+  padding-bottom: 80px;
+  height: 20px;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
-.hero-about .hero-content h1 {
-    font-size: 4rem; /* smaller than the 9rem in homepage */
+.hero-about h1 {
+  font-size: 8rem;
+  margin-bottom: 0.5rem;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-.hero-about .hero-content p {
-    font-size: 1rem;
+.hero-about p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-transform: none; /* Makes subtext lowercase */
+  color: white;
+  opacity: 0.9;
 }
-
-
 
 /* CONTACTS.HTML STYLING */
 
