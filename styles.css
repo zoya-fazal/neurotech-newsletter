@@ -299,9 +299,17 @@ header p {
 
 /* This will only affect the posts page */
 .hero-posts {
-    padding: 3rem 1rem; /* smaller padding */
-    min-height: 40vh;   /* shorter height */
-    background-color: black; /* same design */
+    height: 80vh; /*to adjust the height of the hero background */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    background: #000;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    padding-left: 5%;
   }
   
   /* Optional: tweak font size if needed */
