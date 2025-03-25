@@ -441,21 +441,20 @@ header p {
 /********* ABOUT.HTML STYLING *********/
 
 .hero-about {
-  padding-top: 140px; /* makes space for fixed navbar */
-  padding-left: 5%;
-  padding-bottom: 80px;
-  height: 20px;
-  background: #000;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  text-transform: uppercase;
-  font-weight: 600;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #000;
+    color: white;
+    padding-left: 5%;
+    padding-top: 120px; /* adjusts for navbar */
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
-.hero-about h1 {
+.hero-about .hero-content h1 {
   font-size: 8rem;
   margin-bottom: 0.5rem;
   color: white;
@@ -474,7 +473,7 @@ header p {
 .team-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 40px;
     padding: 4rem 5%;
     justify-content: center;
     background-color: #000;
@@ -485,6 +484,9 @@ header p {
     width: 300px;
     height: 400px;
     overflow: hidden;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
     border-radius: 12px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
@@ -501,6 +503,27 @@ header p {
     display: block;
     border-radius: 12px;
   }
+
+  .image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  .image-wrapper:hover {
+    transform: scale(1.05);
+  }  
   
   /* Hidden bio overlay */
   .member-info {
@@ -509,19 +532,20 @@ header p {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.8);
-    color: white;
+    background: rgba(0, 0, 0, 0.85);
     opacity: 0;
     padding: 1.5rem;
     transition: opacity 0.3s ease;
-    font-family: 'Poppins', sans-serif;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    text-align: left;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 0.95rem;
+    font-weight: 300;
   }
   
-  .team-member:hover .member-info {
+  .image-wrapper:hover .member-info {
     opacity: 1;
   }
   
@@ -536,6 +560,20 @@ header p {
     font-weight: 300;
     opacity: 0.9;
   }
+
+  .member-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .member-role {
+    font-size: 1rem;
+    font-weight: 300;
+    opacity: 0.8;
+  }
+  
   
 
 /********* CONTACTS.HTML STYLING *********/
