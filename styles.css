@@ -388,7 +388,7 @@ header p {
 
 /* Hover effect for links inside posts */
 .post a:hover {
-    color: #0056b3;
+    color: white;
 }
 
 /* Post Description */
@@ -413,7 +413,7 @@ header p {
 
 /* Hero content for posts.html */
 .hero-posts {
-    height: 60vh; /* smaller hero height */
+    height: 40vh; /* smaller hero height */
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -440,14 +440,16 @@ header p {
 /* CONTACTS.HTML STYLING */
 
 .contact-section {
-    background-color: #000;
-    color: white;
-    padding: 4rem 1rem;
     display: flex;
-    justify-content: center;
     align-items: center;
-    font-family: 'Poppins', sans-serif;
+    justify-content: flex-start;
     text-align: left;
+    background: #000;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    padding-left: 5%;
   }
   
   .contact-container {
@@ -479,22 +481,25 @@ header p {
   }
   
   .contact-form button {
-    background-color: white;
-    color: black;
+    font-size: 1.2rem;
+    padding: 12px 24px;
+    border-radius: 30px;
+    background: linear-gradient(45deg, #1e1e1e, #444);
+    color: white;
     font-weight: bold;
-    text-transform: uppercase;
-    padding: 1rem 2rem;
+    transition: all 0.3s ease-in-out;
     border: none;
-    border-radius: 8px;
-    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
   }
   
   .contact-form button:hover {
-    background-color: #ccc;
+    background: linear-gradient(45deg, #444, #777);
+    transform: scale(1.1);
   }
   
 
-/* Footer */
+/* FOOTER STYLING */
 footer {
     text-align: center;
     padding: 1rem;
