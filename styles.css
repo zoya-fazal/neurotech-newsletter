@@ -28,6 +28,9 @@ h1, h2, h3, h4 {
     font-weight: 300;
 }
 
+
+/* NAVBAR STYLING */
+
 /* logo styling */
 
 .logo-img:hover {
@@ -36,8 +39,34 @@ h1, h2, h3, h4 {
     transition: all 0.3s ease;
 }
 
+/* Social Media Icons Styling */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
 
-/* NAVBAR STYLING */
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #000; /* black */
+    color: #fff; /* white icon */
+    text-decoration: none;
+    font-size: 18px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.social-link:hover {
+    transform: scale(1.1);
+    background-color: #444; /* dark gray hover */
+}
+
 
 /* Navigation Bar Styles */
 nav {
