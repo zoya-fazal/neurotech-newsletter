@@ -40,6 +40,11 @@ h1, h2, h3, h4 {
 }
 
 /* Social Media Icons Styling */
+
+.social-icons {
+    margin-left: 40px; /* adjust as needed */
+  }
+  
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
 
 .social-icons {
