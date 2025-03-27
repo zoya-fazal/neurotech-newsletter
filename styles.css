@@ -28,6 +28,15 @@ h1, h2, h3, h4 {
     font-weight: 300;
 }
 
+/* logo styling */
+
+.logo-img:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+
 /* NAVBAR STYLING */
 
 /* Navigation Bar Styles */
