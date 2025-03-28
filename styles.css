@@ -41,6 +41,19 @@ h1, h2, h3, h4 {
 
 /* Social Media Icons Styling */
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* this centers everything vertically */
+    padding: 0 2rem;
+  }
+  
+  .nav-left {
+    display: flex;
+    align-items: center; /* this aligns logo + icons vertically */
+    gap: 20px;
+  }  
+
 .social-icons {
     margin-left: 40px; /* adjust as needed */
   }
