@@ -42,10 +42,12 @@ h1, h2, h3, h4 {
 /* Social Media Icons Styling */
 
 .container {
+    max-width: 1200px; /* sets total nav width */
+    margin: 0 auto;     /* centers the container */
+    padding: 0 40px;    /* controls spacing on both left and right */
     display: flex;
     justify-content: space-between;
-    align-items: center; /* this centers everything vertically */
-    padding: 0 2rem;
+    align-items: center;
   }
   
   .nav-left {
