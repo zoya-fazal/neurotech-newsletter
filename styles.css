@@ -16,8 +16,8 @@
 /* General Styles */
 body {
     font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: var(--background);
-    color: var(--text);
+    background-color: #000;
+    color: white;
     line-height: 1.6;
     overflow-x: hidden;
 }
