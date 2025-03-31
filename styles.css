@@ -177,7 +177,7 @@ nav ul li a:hover {
     justify-content: space-between;  /* ✅ Spread items to left + right */
     align-items: center;
     width: 100%;
-    padding: 0 40px;
+    padding: 0 20px;
 }
 
 /* Right side: nav menu */
