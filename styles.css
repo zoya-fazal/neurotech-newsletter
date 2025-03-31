@@ -182,10 +182,11 @@ nav ul li a:hover {
     display: flex;
     list-style: none;
     gap: 30px;
-    justify-content: center; /* centers links horizontally */
-    align-items: center; /* centers links vertically */
-    width: 100%;
+    justify-content: flex-end;  /* ✅ Aligns links to the right */
+    align-items: center;
+    flex: 1;                     /* ✅ Allows it to push left side */
 }
+
 
 .nav-links a {
     font-family: 'Poppins', sans-serif;
