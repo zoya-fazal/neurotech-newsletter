@@ -173,7 +173,7 @@ nav ul li a:hover {
 
 .navbar .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;  /* ✅ Spread items to left + right */
     align-items: center;
     width: 100%;
 }
