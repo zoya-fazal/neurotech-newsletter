@@ -50,6 +50,7 @@ h1, h2, h3, h4 {
     align-items: center;
   }
   
+  /* left side: logo and social */
   .nav-left {
     display: flex;
     align-items: center; /* this aligns logo + icons vertically */
@@ -176,6 +177,13 @@ nav ul li a:hover {
     justify-content: space-between;  /* ✅ Spread items to left + right */
     align-items: center;
     width: 100%;
+    padding: 0 40px;
+}
+
+/* Right side: nav menu */
+.nav-right {
+  display: flex;
+  align-items: center;
 }
 
 .nav-links {
