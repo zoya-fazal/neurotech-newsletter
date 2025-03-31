@@ -56,17 +56,17 @@ h1, h2, h3, h4 {
     gap: 20px;
   }  
 
-.social-icons {
-    margin-left: 40px; /* adjust as needed */
-  }
   
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
 
 .social-icons {
-    display: flex;
-    gap: 15px;
-    margin-top: 20px;
+  display: flex;
+  align-items: center;     /* ✅ Vertically center */
+  gap: 15px;
+  margin-left: 40px;       /* ✅ Keeps spacing from logo */
+  margin-top: 0;           
 }
+
 
 .social-link {
     display: inline-flex;
