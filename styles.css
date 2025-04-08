@@ -499,11 +499,13 @@ header p {
     height: 100%;
     display: flex;
     align-items: center; /* vertically center the h1 */
+
   }  
 
 .hero-posts .hero-content h1 {
     font-size: 4rem; /* smaller than the 9rem in homepage */
     margin: 0;
+    margin-bottom: 0.5rem;
 }
 
 .hero-posts .hero-content p {
