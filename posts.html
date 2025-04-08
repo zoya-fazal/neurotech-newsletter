@@ -48,6 +48,7 @@
             </article>
 
             <article class="post">
+                <img src="images/Dr. Craig Mermel - Precision Neuro Image.png" alt="Blog Post Image">
                 <h2><a href="#">Coming Soon: Interview with Precision Neuroscience</a></h2>
                 <p>Explore the future of BCIs with Craig Mermel, President of Precision Neuroscience</p>
                 <span>Coming Soon | Summer Issue</span>
@@ -64,6 +65,24 @@
     <footer>
         <p>&copy; 2025 Neurotech Newsletter</p>
     </footer>
+
+    <!--Hiding the article block unless there is an image-->
+    <script>
+        // Wait until the page fully loads
+        document.addEventListener('DOMContentLoaded', function () {
+            // Select all post elements
+            const posts = document.querySelectorAll('.post');
+    
+            posts.forEach(post => {
+                const img = post.querySelector('img');
+    
+                // If there's no <img> tag inside the post, hide the entire block
+                if (!img) {
+                    post.style.display = 'none';
+                }
+            });
+        });
+    </script>    
 
 </body>
 </html>
