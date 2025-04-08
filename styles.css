@@ -482,7 +482,7 @@ header p {
 
 /* Hero content for posts.html */
 .hero-posts {
-    height: 30vh; /* smaller hero height */
+    height: 45vh; /* smaller hero height */
     display: flex;
     align-items: center;
     justify-content: flex-start;
