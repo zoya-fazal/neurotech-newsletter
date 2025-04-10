@@ -482,7 +482,7 @@ header p {
 
 /* Hero content for posts.html */
 .hero-posts {
-    height: 45vh; /* smaller hero height */
+    height: 40vh; /* smaller hero height */
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -675,7 +675,7 @@ header p {
 /********* CONTACTS.HTML STYLING *********/
 
 .contact-section {
-    padding-top: 140px; /* adjust based on navbar height */
+    padding-top: 40vh; /* adjust based on navbar height */
     padding-bottom: 120px;
     display: flex;
     flex-direction: column; /* this is key! */
