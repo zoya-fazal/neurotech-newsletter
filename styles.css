@@ -163,7 +163,7 @@ nav ul li a:hover {
     left: 0;
     width: 100%;
     background-color: white;
-    padding: 15px 0;
+    padding: 10px 0;
     transition: var(--transition);
     z-index: 1000;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
