@@ -675,7 +675,7 @@ header p {
 /********* CONTACTS.HTML STYLING *********/
 
 .contact-section {
-    padding-top: 40vh; /* adjust based on navbar height */
+    padding-top: 10vh; /* adjust based on navbar height */
     padding-bottom: 40vh;
     display: flex;
     flex-direction: column; /* this is key! */
