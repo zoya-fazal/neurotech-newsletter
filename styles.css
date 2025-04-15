@@ -393,6 +393,8 @@ header p {
     max-width: 100%;
     padding: 2rem;
     gap: 40px;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
 }
 
 /* Post Grid Layout */
@@ -493,6 +495,8 @@ header p {
     font-weight: 600;
     color: white;
     padding-left: 5%;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .hero-posts .hero-content {
@@ -505,7 +509,8 @@ header p {
 .hero-posts .hero-content h1 {
     font-size: 4rem; /* smaller than the 9rem in homepage */
     margin: 0;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
 }
 
 .hero-posts .hero-content p {
